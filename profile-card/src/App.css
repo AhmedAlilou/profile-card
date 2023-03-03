@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(76, 159, 171);
+  background-image: url("/profile-card-component-main/images/bg-pattern-top.svg"), url("/profile-card-component-main/images/bg-pattern-bottom.svg");
+  background-position: -90% -500px, 170% 400px;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  height: 375px;
+  border-radius: 5%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.upper-container {
+  width: 350px;
+  height: 140px;
+  background: url(/profile-card-component-main/images/bg-pattern-card.svg);
+  background-size: cover;
+}
+
+.photo {
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-top: 90px;
+}
+
+.text {
+  margin-top: 60px;
+}
+
+.name {
+  display:inline;
+  float:left;
+  margin-left: 100px;
+}
+.age {
+  display:inline;
+  float:right;
+  margin-right: 100px;
+  color: rgb(130, 130, 130)
+}
+
+.location {
+  color: rgb(130, 130, 130)
+}
+
+.line {
+  background-color: rgb(230, 230, 230)
+}
+
+.followersNum {
+  margin: 25px;
+  display: inline;
+  text-align: left;
+}
+
+.followers {
+  margin: 30px;
+  display: inline;
+  text-align: left;
+  color: rgb(162, 162, 162)
+}
+
+.likesNum {
+  margin: 25px;
+  display: inline;
+  text-align: center;
+}
+
+.likes {
+  margin: 15px;
+  display: inline;
+  text-align: center;
+  color: rgb(162, 162, 162)
+}
+
+.photosNum {
+  margin: 25px;
+  display: inline;
+  text-align: right;
+}
+
+.photos {
+  margin: 35px;
+  display: inline;
+  text-align: right;
+  color: rgb(162, 162, 162)
+}
